@@ -1,0 +1,124 @@
+
+header{
+  box-shadow: var(--box--shadow);
+  padding: 2px;
+  padding-bottom: 3rem;
+  justify-content:space-between; 
+}
+
+nav ul li{
+  list-style: none;
+  float: right;
+  font-size: large;
+  margin: 10px;
+  display: block;
+  color: black;
+  padding: 5px 5px;
+  font-family: sans-serif;
+  border: solid 1px black;
+}
+
+nav ul li:hover{
+  background-color: #a2a5a7;
+  padding: 10px;
+  border: solid 1px #1b0264;
+}
+
+.logo{
+  float: left;
+  font-family: sans-serif;
+  font-size: x-large;
+  margin:10px ;
+  border: solid 2px black;
+  padding: 10px;
+ 
+}
+
+.slider{
+ 
+ padding-left: 40px;
+ padding-right: 60px;
+  margin: 2px auto;
+ 
+  }
+
+
+  body{
+    margin: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-image: url(baxkground\ \(1\).jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat, repeat;
+  }
+
+
+.sc{
+  border-radius: 20px;
+  display: flex;
+  margin: 40px;
+  padding: 20px;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.a{
+height: 250px;
+width: 200px;
+border: solid 2px black;
+}
+.b{
+  height: 250px;
+  width: 200px;
+  border: solid 2px black;
+  }
+.c{
+    height: 250px;
+    width: 200px;
+    border: solid 2px black;
+    }
+.d{
+      height: 250px;
+      width: 200px;
+      border: solid 2px black;
+      }
+
+ a{
+        text-align: center;
+        display:inline-block;
+        text-decoration: none;
+        outline: none;
+        color: rgb(7, 5, 5);
+        border: solid 1px rgb(83, 77, 77);
+       
+        margin: 10px;
+      
+      }
+a:hover{
+        background-color: rgb(175, 142, 109);
+      }
+      
+
+.icons{
+  color: rgb(12, 12, 14);
+  padding: 2px;
+  margin: 2px;
+
+}
+
+ footer .cp{
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 2px;
+  font-size: 1.2em;
+  justify-content: center;
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
